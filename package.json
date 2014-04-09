@@ -3,8 +3,12 @@
   "version": "0.0.0",
   "description": "Node wrapper around collada2glTF",
   "main": "index.js",
+  "repository" : {
+      "type" : "git",
+      "url" : "https://github.com/klokoy/collada2gltf"
+  },
   "scripts": {
-    "test": "npm test"
+    "test": "mocha"
   },
   "keywords": [
     "collada",
